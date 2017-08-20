@@ -19,7 +19,7 @@ addLink.addEventListener("click", function() {
   var inputButton = document.getElementById("add-button");
       function pushToArray() {
         console.log("hi");
-        songs2.push({name: songNameInput.value, artist: artistInput.value, album: albumInput.value, genre: "Whatever"}); // Array now contains 1 item
+        songs2.unshift({name: songNameInput.value, artist: artistInput.value, album: albumInput.value, genre: "Whatever"}); // Array now contains 1 item
       }
   console.log(songs2);
   inputButton.addEventListener("click", function(){
