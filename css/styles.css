@@ -102,7 +102,7 @@ button {
 	display: inline-block;
 	float: center;
 	width: 740px;
-	height: 450px;
+	height: 431px;
 	margin-left: 10px;
 	border: 2px solid black;
 	margin-top: 1%;
@@ -126,4 +126,10 @@ h2 {
   
   .hidden {
 	display: none;
+  }
+
+  /*Add content page */
+
+  .main-content {
+	  overflow: scroll;
   }
