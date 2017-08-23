@@ -14,34 +14,46 @@ addLink.addEventListener("click", function() {
   addView.classList.remove("hidden");
   
   var inputButton = document.getElementById("add-button");
-
   console.log(songs2);
   inputButton.addEventListener("click", function(){
     console.log("omggg");
-    displaySongs();
-    addToDom();
+    // songs2 = []; 
+    displayNewSongs();
+    displayOriginalSongs();
+    
   });
 });
 
 console.log("hi there");
 
 
-function displaySongs() {
+function displayNewSongs() {
   var songNameInput = document.getElementById("songName");
   var artistInput = document.getElementById("artistName");
   var albumInput = document.getElementById("albumName");
-
+  
   songs2.unshift({name: songNameInput.value, artist: artistInput.value, album: albumInput.value, genre: "Whatever"}); // Array now contains 1 item
+  // contentArea.innerHTML += songsTwo;
+}
+
+function displayOriginalSongs() {
+  contentArea2.innerHTML = "";
   for (let j = 0; j < songs2.length; j++) {
   
-  console.log(songs2[j]);
-  contentArea2.innerHTML += `<div class="Song1 specific-song">
+    console.log(songs2[j]);
+    contentArea2.innerHTML += `<div class="Song1 specific-song">
                             <h2>${songs2[j].name}</h2>
                             <h4 class="song1list artist-name">${songs2[j].artist}</h4>
                             <h4 class="song1list album-name">${songs2[j].album}</h4>
                             <h4 class="song1list genre-type">${songs2[j].genre}</h4>
                             </div>`;
                             console.log(songs2[j]);
-}
-
-}
+  }
+  // var inputButton = document.getElementById("add-button");
+  
+    console.log(songs2);
+  }
+    // inputButton.addEventListener("click", function(){
+    //   console.log("omggg");
+    //   displayNewSongs();
+  

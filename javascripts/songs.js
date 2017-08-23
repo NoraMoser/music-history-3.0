@@ -42,6 +42,8 @@ for (i = 0; i < songs2.length; i++) {
 								<h4 class="song1list album-name">${songs2[i].album}</h4>
 								<h4 class="song1list genre-type">${songs2[i].genre}</h4>
 								</div>`;
+	
+	
 }
 	
 }
