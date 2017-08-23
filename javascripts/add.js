@@ -19,6 +19,7 @@ addLink.addEventListener("click", function() {
   inputButton.addEventListener("click", function(){
     console.log("omggg");
     displaySongs();
+    addToDom();
   });
 });
 
@@ -42,4 +43,5 @@ function displaySongs() {
                             </div>`;
                             console.log(songs2[j]);
 }
+
 }
