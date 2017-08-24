@@ -1,6 +1,7 @@
 var homeLink = document.getElementById("view-music");
 var homeView = document.getElementById("home-view");
 var listLink = document.getElementById("link-list");
+console.log(listLink);
 var listView = document.getElementById("list-view");
 var addLink = document.getElementById("link-add");
 var addView = document.getElementById("add-view");
