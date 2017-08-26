@@ -133,3 +133,25 @@ h2 {
   .main-content {
 	  overflow: scroll;
   }
+
+  /* List content page */
+
+  /* .list-content {
+	margin-left: 10px;
+	background-color: #FEFAC0;
+	font-size: 1.1em;
+	
+  } */
+
+  #listViewMH {
+	display: inline-block;
+	float: center;
+	width: 740px;
+	height: 431px;
+	margin-left: 10px;
+	border: 2px solid black;
+	margin-top: 1%;
+	background-color: #FEFAC0;
+	padding: 50px 30px;
+	font-size: 1.1em;
+  }
