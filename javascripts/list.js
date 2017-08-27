@@ -9,7 +9,7 @@ var addView = document.getElementById("add-view");
 var listSongs = {};
 
 listLink.addEventListener("click", function(event) {
-  event.preventDefault();
+  // event.preventDefault();
   homeView.classList.add("hidden");
   addView.classList.add("hidden");
   listView.classList.add("visible");

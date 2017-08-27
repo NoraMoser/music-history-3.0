@@ -143,7 +143,7 @@ h2 {
 	
   } */
 
-  #listViewMH {
+  #list-second-view {
 	display: inline-block;
 	float: center;
 	width: 740px;
@@ -154,6 +154,7 @@ h2 {
 	background-color: #FEFAC0;
 	padding: 50px 30px;
 	font-size: 1.1em;
+	overflow: scroll;
   }
 
   .deleteBtn {
@@ -161,4 +162,12 @@ h2 {
 	  background-color: lightblue;
 	  border-radius: 12%;
 	  margin-left: 3px;
+  }
+
+  #more {
+	  float: bottom;
+	  width: 7%;
+	  background-color: lightblue;
+	  border-radius: 12%;
+
   }
