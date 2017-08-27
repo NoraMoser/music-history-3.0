@@ -42,7 +42,7 @@ function showData(songs, item){
     <h4 class="song1list artist-name">${listSongs[id].artist}</h4>
     <h4 class="song1list album-name">${listSongs[id].album}</h4>
     <h4 class="song1list genre-type">${listSongs[id].genre}</h4>
-    <button id='deleteBtn'>Delete</button>
+    <button class='deleteBtn'>Delete</button>
     </div></div>`
     //   for (var i = 0; i < deleteButton.length; i++) {
       // };
@@ -53,7 +53,7 @@ function showData(songs, item){
     
     let wholeSongDiv = document.getElementById("songCard");
 
-    $("#deleteBtn").on("click", function(){
+    $(".deleteBtn").on("click", function(){
       $(this).parent().parent().remove()
   });
     
