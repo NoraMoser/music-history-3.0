@@ -155,3 +155,10 @@ h2 {
 	padding: 50px 30px;
 	font-size: 1.1em;
   }
+
+  #deleteBtn {
+	  width: 7%;
+	  background-color: lightblue;
+	  border-radius: 12%;
+	  margin-left: 3px;
+  }
